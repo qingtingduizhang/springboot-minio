@@ -1,0 +1,13 @@
+minio:
+  endpoint: http://192.168.0.143:9000
+  accesskey: minioadmin
+  secretKey: minioadmin
+  bucketName: test-bucket
+spring:
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+server:
+  port: 8082
